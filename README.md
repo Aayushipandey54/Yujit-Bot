@@ -229,13 +229,13 @@ Customer Request
 <h2 align="center">🏠 Home Interface</h2>
 
 <p align="center">
-  <img src="images/home.png" width="850">
+  <img src="images/home.jpg" width="850">
 </p>
 
 <h2 align="center">💬 Negotiation Chat Window</h2>
 
 <p align="center">
-  <img src="images/chat.png" width="850">
+  <img src="images/chat.jpg" width="850">
 </p>
 
 ---
