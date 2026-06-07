@@ -226,20 +226,17 @@ Customer Request
 
 # 📸 Screenshots
 
-## Home Interface
+<h2 align="center">🏠 Home Interface</h2>
 
-```md
-![Home](images/home.png)
-```
+<p align="center">
+  <img src="images/home.png" width="850">
+</p>
 
----
+<h2 align="center">💬 Negotiation Chat Window</h2>
 
-## Negotiation Chat Window
-
-```md
-![Chat](images/chat.png)
-
-```
+<p align="center">
+  <img src="images/chat.png" width="850">
+</p>
 
 ---
 
