@@ -228,42 +228,17 @@ Customer Request
 
 ## Home Interface
 
-Add Screenshot Here
-
 ```md
-![Home]<img width="642" height="478" alt="image" src="https://github.com/user-attachments/assets/291b294b-5823-4275-8e28-8ed09e453a9a" />
-
+![Home](images/home.png)
 ```
 
 ---
 
 ## Negotiation Chat Window
 
-
-
 ```md
 ![Chat](images/chat.png)
 
-```
-
----
-
-## Price Negotiation Example
-
-Add Screenshot Here
-
-```md
-![Negotiation](images/negotiation.png)
-```
-
----
-
-## Model Training Output
-
-Add Screenshot Here
-
-```md
-![Training](images/training.png)
 ```
 
 ---
