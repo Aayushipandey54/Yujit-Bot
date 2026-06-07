@@ -1,159 +1,395 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a name="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
+# 🤖 Yujit – AI-Powered Negotiation Assistant
+
+![Python](https://img.shields.io/badge/Python-3.10-blue)
+![BERT](https://img.shields.io/badge/NLP-BERT-green)
+![AI Chatbot](https://img.shields.io/badge/AI-Negotiation%20Bot-orange)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+
+> An intelligent AI-powered negotiation chatbot that understands customer intent, analyzes negotiation patterns, and dynamically negotiates product prices using Natural Language Processing and Machine Learning.
+
+---
+
+# 🌟 Project Overview
+
+Negotiation is a critical aspect of business, e-commerce, procurement, and customer interactions. Traditional systems use fixed pricing models that cannot adapt to user behavior or negotiation strategies.
+
+**Yujit** was developed to solve this challenge by introducing an AI-powered virtual negotiator capable of:
+
+✅ Understanding customer messages using BERT NLP
+
+✅ Identifying negotiation intent
+
+✅ Calculating personalized discount offers
+
+✅ Maintaining business profitability
+
+✅ Simulating human-like negotiation conversations
+
+Instead of offering static discounts, Yujit intelligently determines the best possible offer while ensuring that pricing never falls below a predefined minimum threshold.
+
+---
+
+# 🎯 Problem Statement
+
+In online marketplaces and customer service environments:
+
+* Manual negotiation consumes time and resources.
+* Fixed discount systems lack flexibility.
+* Businesses struggle to balance customer satisfaction and profit margins.
+* Customers expect personalized interactions.
+
+Yujit bridges this gap through AI-driven conversational negotiation.
+
+---
+
+# 🚀 Key Features
+
+### 🤖 AI-Powered Intent Recognition
+
+Uses a BERT-based Natural Language Processing model to understand customer messages and negotiation intent.
+
+### 💬 Smart Conversational Agent
+
+Engages users in natural conversations and responds dynamically based on negotiation context.
+
+### 💰 Dynamic Price Negotiation
+
+Calculates personalized offers based on:
+
+* Initial Product Price
+* Customer Behavior
+* Negotiation Attempts
+* Product Constraints
+* Business Rules
+
+### 🧠 Machine Learning Driven
+
+Learns negotiation patterns from historical datasets and customer interactions.
+
+### 📊 Data-Based Decision Making
+
+Negotiation outcomes are generated using trained machine learning models and pricing formulas.
+
+### 🔒 Business Protection
+
+Ensures negotiated prices never fall below predefined minimum thresholds.
+
+### ⚡ Real-Time Response System
+
+Provides instant negotiation feedback and pricing suggestions.
+
+---
+
+# 🏗️ System Architecture
+
+```text
+User Message
+      │
+      ▼
+Intent Detection (BERT Model)
+      │
+      ▼
+Negotiation Logic Engine
+      │
+      ├── Product Constraints
+      ├── Pricing Rules
+      ├── Customer Factors
+      │
+      ▼
+Offer Calculation Module
+      │
+      ▼
+AI Chat Response
+      │
+      ▼
+Final Negotiated Price
+```
+
+---
+
+# 🛠️ Technology Stack
+
+## Programming Language
+
+* Python 3.10
+
+## Machine Learning
+
+* BERT (Bidirectional Encoder Representations from Transformers)
+
+## Natural Language Processing
+
+* Intent Classification
+* Text Understanding
+* Context Recognition
+
+## Data Processing
+
+* Pandas
+* NumPy
+
+## Web Scraping & Data Collection
+
+* Beautiful Soup
+
+## Dataset Management
+
+* CSV-based Training Data
+* JSON Intent Dataset
+
+---
+
+# 📂 Project Structure
+
+```bash
+Yujit-Bot/
+│
+├── main.py
+├── model_bert.py
+├── intents_negotiation.json
+├── bot_responses_negotiations.py
+├── negociation_products_operations.py
+├── nego.csv
+│
+├── README.md
+└── assets/
+    └── screenshots/
+```
+
+---
+
+# ⚙️ How It Works
+
+### Step 1 – User Initiates Negotiation
+
+Example:
+
+"Can you reduce the price?"
+
+### Step 2 – BERT Analyzes Intent
+
+The NLP model classifies the user's intention:
+
+* Bargaining
+* Discount Request
+* Product Inquiry
+* Acceptance
+* Rejection
+
+### Step 3 – Negotiation Engine Processes Request
+
+Business rules and negotiation formulas are applied.
+
+### Step 4 – Dynamic Offer Generated
+
+Example:
+
+Original Price: ₹10,000
+
+AI Offer: ₹9,200
+
+### Step 5 – Continue Negotiation
+
+The chatbot intelligently responds until:
+
+* Agreement is reached
+* Minimum price threshold is reached
+* Negotiation ends
+
+---
+
+# 📈 AI Negotiation Workflow
+
+```text
+Customer Request
+        │
+        ▼
+ Intent Classification
+        │
+        ▼
+ Negotiation Strategy
+        │
+        ▼
+ Discount Calculation
+        │
+        ▼
+ Counter Offer Generation
+        │
+        ▼
+ Customer Response
+        │
+        ▼
+ Final Agreement
+```
+
+---
+
+# 📸 Screenshots
+
+## Home Interface
+
+Add Screenshot Here
+
+```md
+![Home]<img width="642" height="478" alt="image" src="https://github.com/user-attachments/assets/291b294b-5823-4275-8e28-8ed09e453a9a" />
+
+```
+
+---
+
+## Negotiation Chat Window
 
 
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-<!-- [![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url] -->
+```md
+![Chat](images/chat.png)
 
+```
 
+---
 
-<!-- PROJECT LOGO -->
-<br />
+## Price Negotiation Example
 
+Add Screenshot Here
 
+```md
+![Negotiation](images/negotiation.png)
+```
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-  </ol>
-</details>
+---
 
+## Model Training Output
 
+Add Screenshot Here
 
-<!-- ABOUT THE PROJECT -->
-## About The Project
+```md
+![Training](images/training.png)
+```
 
-<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
+---
 
-The project revolves around a product negotiation chatbot.  The bot is able to understand the surfer thanks to a Bert model, and to negotiate the price of a product. There’s an initial price which the chatbot starts with and a final price which the chatbot cannot get below it. The calculation of the final price is based on an equation which depends on some factors for each user.
+# 🚀 Installation
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+Clone the repository:
 
+```bash
+git clone https://github.com/Aayushipandey54/Yujit-Bot.git
+```
 
-## Getting Started
+Move to project directory:
 
+```bash
+cd Yujit-Bot
+```
 
-### Prerequisites
+Install dependencies:
 
-* python version : 3.10.12
+```bash
+pip install -r requirements.txt
+```
 
-### Installation
+---
 
-* pip install -r requirements.txt
+# ▶️ Usage
 
-<!-- 1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/your_username_/Project-Name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ``` -->
+## Train Model
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+```bash
+python main.py --mode train
+```
 
+## Test Model
 
+```bash
+python main.py --mode test
+```
 
-<!-- USAGE EXAMPLES -->
-## Usage
+---
 
-1. Train the bert model
-   ```
-   python main.py --mode train
+# 📊 Sample Negotiation
 
-   ```
-3. test 
-   ```
-   python main.py --mode test
+### Customer
 
-   ```
+> Can you give me a discount?
 
+### Yujit
 
+> I can offer a 5% discount on this product.
 
-<!-- ROADMAP -->
-<!-- ## Roadmap
+### Customer
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
+> That's still expensive.
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+### Yujit
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-<!-- 
+> Based on your request, I can reduce the price further to ₹8,900.
 
+### Customer
 
-<!-- CONTRIBUTING -->
-<!-- ## Contributing
+> Deal!
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+### Yujit
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+> Great! The final negotiated price is ₹8,900.
 
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+---
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+# 🎓 Academic Information
 
+### Project Duration
 
+January 2024 – October 2024
 
-<!-- LICENSE -->
+### Institution
 
+Government Polytechnic Mumbai
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p> 
+### Domain
 
+Artificial Intelligence & Machine Learning
 
+### Skills Applied
 
-<!-- ACKNOWLEDGMENTS -->
+* Natural Language Processing
+* BERT Model Training
+* Pattern Recognition
+* Machine Learning
+* Conversational AI
+* Data Analysis
+* Beautiful Soup
+* Python Development
 
+---
 
+# 🔮 Future Enhancements
 
+* Voice-Based Negotiation
+* Multi-Language Support
+* Deep Reinforcement Learning Negotiation Agents
+* Sentiment Analysis Integration
+* Real-Time E-Commerce Integration
+* Dashboard Analytics
+* Customer Behavior Prediction
+* Generative AI Negotiation Strategies
 
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+---
+
+# 🏆 Project Impact
+
+Yujit demonstrates how Artificial Intelligence can automate one of the most complex human activities—negotiation.
+
+The project combines NLP, Machine Learning, and Business Intelligence to create a practical AI solution capable of improving customer engagement while protecting business profitability.
+
+---
+
+# 👩‍💻 Developer
+
+### Aayushi Pandey
+
+AI & Machine Learning Engineering
+
+GitHub: https://github.com/Aayushipandey54
+
+---
+
+⭐ If you found this project interesting, consider giving it a star and supporting future AI innovations!
